@@ -26,7 +26,7 @@ def plot_charts(outdir, filenames, data, labels):
 
     ax.set_ylabel("L2 gmean miss rate")
     ax.set_xlabel("label")
-    ax.set_title("L2 gmean miss rate by file")
+    ax.set_title("L2 gmean miss rate by replacement policy")
     ax.legend()
     ax.grid(True)
     plt.yticks(np.arange(0,1,0.1))
